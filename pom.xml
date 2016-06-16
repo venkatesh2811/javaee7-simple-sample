@@ -33,12 +33,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8080/nexus-2.13.0-01/content/repositories/releases/</url>
+            <url>http://192.168.1.35:8080/nexus-2.13.0-01/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8080/nexus-2.13.0-01/content/repositories/snapshots/</url>
+            <url>http://192.168.1.35:8080/nexus-2.13.0-01/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
